@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Special+Elite&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #8dbdba;
+}
+.wrapper {
+  position: relative;
+  width: 200vw;
+  height: 95vh;
+  overflow-x: hidden;
+}
+.container1,
+.container2 {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+.container2 {
+  // background-color: #8675ba;
+  left: 100vw;
+}
+h2 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 64px;
+  color: #f5f5f5;
+  padding: 100px;
+  line-height: 60px;
+}
+
+.text-block {
+  color: #f5f5f5;
+  font-family: Montserrat;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding: 20px 60px 56px 20px;
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+  background: linear-gradient(0deg, rgba(0, 37, 23, 0.3), rgba(0, 37, 23, 0.3));
+  // url('../assets/images/glass.jpg');
+  background-blend-mode: normal, multiply;
+  border: 0.5px solid rgba(64, 89, 80, 0.5);
+  box-shadow: inset 0.860527px 0.860527px 0.860527px rgba(53, 74, 66, 0.2);
+  backdrop-filter: blur(30px);
+
+  h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    width: 588px;
+  }
+  & > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    width: 530px;
+  }
+}
+.button-wrapper {
+  display: flex;
+  gap: 16px;
+  button {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: #f5f5f5 1px solid;
+    cursor: pointer;
+    background-size: 0.5;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:hover {
+      border: rgb(245, 245, 245, 0.5) 1px solid;
+    }
+  }
+  .left {
+    background-image: url('../assets/images/left-arrow.svg');
+  }
+  .right {
+    background-image: url('../assets/images/right-arrow.svg');
+  }
+}
+.ribbon {
+  display: flex;
+  background: rgba(0, 37, 23, 0.2);
+  border: 0.5px solid rgba(226, 226, 226, 0.5);
+}
+.border {
+  width: 0.5px;
+  background-color: rgba(226, 226, 226, 0.5);
+}
+.ribbon-item {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.wallpaper {
+  width: 70.62vw;
+  height: 40vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.wallpaper1 {
+  background-image: url('../assets/images/Group2.png');
+  right: 80px;
+  top: 138px;
+}
+.wallpaper2 {
+  background-image: url('../assets/images/Group1.png');
+  right: 82px;
+  top: 153px;
+}
