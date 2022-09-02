@@ -8,7 +8,13 @@
   container1,
   container2,
 } from './app/constants';
+import { text1 } from './app/constants';
+import { showText } from './app/show-hide-text';
+import { slider } from './app/slider';
 import './style/style.scss';
+
+slider();
+showText(text1, 2500);
 
 container1.addEventListener('mousemove', (e: MouseEvent) => {
   e.preventDefault();
