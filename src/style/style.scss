@@ -6,6 +6,7 @@
 }
 body {
   background-color: #8dbdba;
+  cursor: url('../assets/images/cursor1.svg') 25 25, pointer;
 }
 .wrapper {
   position: relative;
@@ -74,7 +75,7 @@ h2 {
     height: 48px;
     background: transparent;
     border: #f5f5f5 1px solid;
-    cursor: pointer;
+    cursor: url('../assets/images/cursor2.svg') 50 50, pointer;
     background-size: 0.5;
     background-repeat: no-repeat;
     background-position: center;
