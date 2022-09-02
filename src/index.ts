@@ -2,6 +2,6 @@
 
 console.log('hello');
 
-const a: any = 45;
+const a = 45;
 
 console.log(a);
